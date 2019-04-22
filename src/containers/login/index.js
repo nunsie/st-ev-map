@@ -42,7 +42,7 @@ export default class Map extends Component {
     return (
       <Layout>
         <Header>Login with</Header>
-        <Button href={`https://discordapp.com/api/oauth2/authorize?client_id=569815298304376832&redirect_uri=${window.location.hostname}OAuth2&response_type=token&scope=guilds%20identify`}>
+        <Button href={`https://discordapp.com/api/oauth2/authorize?client_id=569815298304376832&redirect_uri=https://${window.location.hostname}/OAuth2&response_type=token&scope=guilds%20identify`}>
           <img height='36px' width='130px' src='https://discordapp.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg' />
         </Button>
       </Layout>
