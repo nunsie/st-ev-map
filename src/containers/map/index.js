@@ -17,7 +17,7 @@ export default class Map extends Component {
       height: '100vh',
       latitude: 25,
       longitude: 15,
-      zoom: 1.5
+      zoom: 2
     }
   };
 
