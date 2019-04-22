@@ -27,7 +27,7 @@ export async function handler(event, context) {
     const members = await db.collection('members').find().toArray();
 
     // close the connection
-    client.close();
+    // client.close();
 
     return {
       statusCode: 200,
@@ -36,7 +36,7 @@ export async function handler(event, context) {
   } catch (err) {
 
     // close the connection
-    client.close();
+    // client.close();
 
     console.log(err) // output to netlify function log
     return {
